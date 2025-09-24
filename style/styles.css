@@ -108,34 +108,34 @@ hr{
 
   /* 1. Menyesuaikan Container Utama */
   .main-container {
-    width: 100%;                  /* Lebar container dibuat fleksibel */
-    max-width: 720px;             /* Diberi batas lebar maksimal 720px */
-    height: auto;                 /* Tinggi container otomatis mengikuti isi konten */
-    padding: 35px;                /* Memberi padding di semua sisi agar rapi */
+    width: 100%;                 
+    max-width: 720px;            
+    height: auto;                 
+    padding: 35px;               
   }
 
   /* 2. Menyesuaikan Gambar */
   .image {
-    margin: 0;                    /* Reset margin gambar */
+    margin: 0;                  
   }
 
   img {
-    width: 100%;                  /* Lebar gambar mengisi container */
+    width: 100%;                
   }
 
   /* 3. Menyesuaikan Ukuran Font agar Mudah Dibaca */
   .title {
-    font-size: 38px;              /* Perbesar ukuran judul */
-    margin: 25px 0 0 0;           /* Atur ulang margin */
+    font-size: 38px;            
+    margin: 25px 0 0 0;          
   }
 
   .desc {
-    font-size: 16px;              /* Ukuran font paragraf standar */
+    font-size: 16px;              
     margin: 15px 0 0 0;
   }
 
   li, .nutrition-desc, .nutr1, .nutr2 {
-    font-size: 16px;              /* Samakan ukuran font list dan nutrisi */
+    font-size: 16px;              
   }
 
   .preper1 {
@@ -144,27 +144,28 @@ hr{
 
   /* 4. Menyesuaikan Layout Internal */
   .preperation {
-    width: 100%;                  /* Lebar elemen mengisi container */
-    height: auto;                 /* Tinggi elemen otomatis */
-    margin: 20px 0 0 0;           /* Reset margin */
+    width: 100%;                  
+    height: auto;                 
+    margin: 20px 0 0 0;           
     padding-bottom: 15px;
   }
   
   .ingredient, .intructions {
-    margin-left: 0;               /* Reset margin */
+    margin-left: 0;              
   }
   
   hr {
-    width: 100%;                  /* Lebar garis mengisi container */
-    margin: 20px 0;               /* Atur ulang margin */
+    width: 100%;                 
+    margin: 20px 0;               
   }
 
   .nutrition, .nutrition-desc {
-    margin-left: 0;               /* Reset margin */
+    margin-left: 0;               
   }
 
   .nutr {
     margin-left: 20px;
-    column-gap: 100px;            /* Atur jarak kolom nutrisi */
+    column-gap: 100px;          
   }
+
 }
